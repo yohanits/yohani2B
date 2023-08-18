@@ -38,7 +38,10 @@
 .container__botao:checked ~ .lista-menu {
     display: block;
 }
-.lista-menu__titulo,
+.lista-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
 .lista_menu__item {
 
     padding: 1em;
@@ -58,4 +61,10 @@
     background-clip: text;
     text-transform: uppercase;
     
+}
+
+.container__botao {
+
+display: none;
+
 }
